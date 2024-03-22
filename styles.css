@@ -1,0 +1,214 @@
+.figtree{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree";
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+.mainContainer{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 20%;
+    margin: 150px auto;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 10px 10px 0px black;
+    transition: 0.2s ease;
+}
+
+.mainContainer:hover{
+    box-shadow: 15px 15px 0px black;
+}
+
+.image{
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content{
+    width: 90%;
+    margin: 20px auto;
+    border: 2px solid transparent;
+}
+
+.type{
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.type p{
+    font-weight: 800;
+}
+
+.datePuplished{
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.cardTitleAndDescription{
+    margin-top: 10px;
+}
+
+.cardTitleAndDescription h1, a{
+    font-size: 24.1px;
+    margin-bottom: 10px;
+    transition: 0.2s ease;
+    text-decoration: none;
+    color: black;
+}
+
+.cardTitleAndDescription h1:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.cardTitleAndDescription p{
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+}
+
+.author{
+    display: flex;
+    margin-top: 15px;
+}
+
+.avatar{
+    border: 2px solid transparent;
+    padding-right: 10px;
+}
+
+.avatar img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.name{
+    border: 2px solid transparent;
+}
+
+.name p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+@media (min-width: 360px) and (max-width: 430px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Figtree";
+    }
+    
+    body{
+        background-color: hsl(47, 88%, 63%);
+    }
+    
+    .mainContainer{
+        border: 1px solid black;
+        border-radius: 20px;
+        width: 90%;
+        margin: 150px auto;
+        background-color: hsl(0, 0%, 100%);
+        box-shadow: 10px 10px 0px black;
+        transition: 0.2s ease;
+    }
+    
+    .mainContainer:hover{
+        box-shadow: 15px 15px 0px black;
+    }
+    
+    .image{
+        width: 90%;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+    
+    .image img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .content{
+        width: 90%;
+        margin: 20px auto;
+        border: 2px solid transparent;
+    }
+    
+    .type{
+        background-color: hsl(47, 88%, 63%);
+        width: fit-content;
+        padding: 6px;
+        border-radius: 5px;
+    }
+    
+    .type p{
+        font-weight: 800;
+    }
+    
+    .datePuplished{
+        margin-top: 8px;
+        font-size: 14px;
+    }
+    
+    .cardTitleAndDescription{
+        margin-top: 10px;
+    }
+    
+    .cardTitleAndDescription h1, a{
+        font-size: 24.1px;
+        margin-bottom: 10px;
+        transition: 0.2s ease;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .cardTitleAndDescription h1:hover{
+        color: hsl(47, 88%, 63%);
+    }
+    
+    .cardTitleAndDescription p{
+        font-size: 16px;
+        color: hsl(0, 0%, 50%);
+    }
+    
+    .author{
+        display: flex;
+        margin-top: 15px;
+    }
+    
+    .avatar{
+        border: 2px solid transparent;
+        padding-right: 10px;
+    }
+    
+    .avatar img{
+        width: 40px;
+        border-radius: 50%;
+    }
+    
+    .name{
+        border: 2px solid transparent;
+    }
+    
+    .name p{
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 800;
+    }
+}
